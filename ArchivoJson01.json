@@ -34,6 +34,10 @@
         {
             "nombreColor":"azul009",
             "valorHexadec":"#009"
+        },
+        {
+            "nombreColor":"verde0f3",
+            "valorHexadec":"#0f3"
         }
     ]
 }
