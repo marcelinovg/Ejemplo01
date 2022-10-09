@@ -30,6 +30,10 @@
         {
             "nombreColor":"rosa",
             "valorHexadec":"#f29"
+        },
+        {
+            "nombreColor":"azul009",
+            "valorHexadec":"#009"
         }
     ]
 }
