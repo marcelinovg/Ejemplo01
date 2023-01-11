@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "$id": "https://example.com/employee.schema.json",
   "title": "Record of employee",
-  "description": "This document records the details of an employee",
+  "description": "This document records the details of an employee. Este documento tiene los registros detallados de un empleado",
   "type": "object",
   "nombre": "Marcelino Velazquez Garcia",
   "properties": {
