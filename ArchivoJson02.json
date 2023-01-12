@@ -3,37 +3,37 @@
   "$id": "https://example.com/employee.schema.json",
   "title": "Record of employee",
   "description": "This document records the details of an employee",
-  "type": "object",
+  "type": "objeto",
   "nombre": "Marcelino",
   "properties": {
       "id": {
           "description": "A unique identifier for an employee",
-          "type": "number"
+          "type": "numero"
       },
       "name": {
           "description": "Full name of the employee",
-          "type": "string"
+          "type": "cadena"
       },
       "age": {
           "description": "Age of the employee",
-          "type": "number"
+          "type": "numero"
       },
       "hobbies": {
           "description": "Hobbies of the employee",
-          "type": "object",
+          "type": "objeto",
           "properties": {
               "indoor": {
-                  "type": "array",
+                  "type": "arreglo",
                   "items": {
                       "description": "List of indoor hobbies",
-                      "type": "string"
+                      "type": "cadena"
                   }
               },
               "outdoor": {
-                  "type": "array",
+                  "type": "arreglo",
                   "items": {
                       "description": "List of outdoor hobbies",
-                      "type": "string"
+                      "type": "cadena"
                   }
               }
           }

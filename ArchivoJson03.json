@@ -8,36 +8,36 @@
   "properties": {
       "id": {
           "description": "A unique identifier for an employee",
-          "type": "number"
+          "type": "numero"
       },
       "name": {
           "description": "name of the employee",
-          "type": "string",
+          "type": "cadena",
           "minLength":2
       },
       "age": {
           "description": "age of the employee",
-          "type": "number",
+          "type": "numero",
           "minimum": 16
       },
       "hobbies": {
           "description": "hobbies of the employee",
-          "type": "object",
+          "type": "objeto",
           "properties": {
               "indoor": {
-                  "type": "array",
+                  "type": "arreglo",
                   "items": {
                       "description": "List of hobbies",
-                      "type": "string"
+                      "type": "cadcena"
                   },
                   "minItems": 1,
                   "uniqueItems": true
               },
               "outdoor": {
-                  "type": "array",
+                  "type": "arreglo",
                   "items": {
                       "description": "List of hobbies",
-                      "type": "string"
+                      "type": "cadcena"
                   },
                   "minItems": 1,
                   "uniqueItems": true
