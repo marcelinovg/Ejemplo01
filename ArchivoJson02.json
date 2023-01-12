@@ -7,7 +7,7 @@
   "nombre": "Marcelino",
   "properties": {
       "id": {
-          "description": "A unique identifier for an employee",
+          "description": "Un identificador unico para estatus",
           "type": "number"
       },
       "name": {
