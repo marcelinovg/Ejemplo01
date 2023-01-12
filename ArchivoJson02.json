@@ -11,11 +11,11 @@
           "type": "number"
       },
       "name": {
-          "description": "Full name of the employee",
+          "description": "Nombre completo del empleado",
           "type": "string"
       },
       "age": {
-          "description": "Age of the employee",
+          "description": "Edad del empleado",
           "type": "number"
       },
       "hobbies": {
