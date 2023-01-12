@@ -17,6 +17,16 @@
       "age": {
           "description": "Age of the employee",
           "type": "numero"
+          "description": "Un identificador unico para estatus",
+          "type": "number"
+      },
+      "name": {
+          "description": "Nombre completo del empleado",
+          "type": "string"
+      },
+      "age": {
+          "description": "Edad del empleado",
+          "type": "number"
       },
       "hobbies": {
           "description": "Hobbies of the employee",

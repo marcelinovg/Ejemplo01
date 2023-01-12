@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "$id": "https://example.com/employee.schema.json",
   "title": "Record of employee",
-  "description": "This document records the details of an employee. Este documento tiene los registros detallados de un empleado",
+  "description": "Este documento tiene los registros detallados de un empleado",
   "type": "object",
   "nombre": "Marcelino Velazquez Garcia",
   "properties": {
@@ -18,6 +18,17 @@
       "age": {
           "description": "age of the employee",
           "type": "numero",
+          "description": "Un identificador unico por empleado",
+          "type": "number"
+      },
+      "name": {
+          "description": "Nombre del empleado",
+          "type": "string",
+          "minLength":2
+      },
+      "age": {
+          "description": "Edad del empleado",
+          "type": "number",
           "minimum": 16
       },
       "hobbies": {
